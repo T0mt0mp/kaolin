@@ -40,8 +40,8 @@ if cython_spec is None:
 else:
     import Cython
     cython_ver = parse_version(Cython.__version__)
-    if cython_ver != parse_version('0.29.20'):
-        warnings.warn('Kaolin is compatible with cython == 0.29.20, '
+    if cython_ver != parse_version('0.29.21'):
+        warnings.warn('Kaolin is compatible with cython == 0.29.21, '
                       f'but found version {Cython.__version__} instead. '
                       'This will try to install torch in the right version. '
                       'If the installation fails we recommend to first install it.')

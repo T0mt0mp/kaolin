@@ -13,7 +13,7 @@ import warnings
 
 TORCH_MIN_VER = '1.5.0'
 TORCH_MAX_VER = '1.7.0'
-CYTHON_MIN_VER = '0.29.20'
+CYTHON_MIN_VER = '0.29.21'
 
 missing_modules = []
 torch_spec = importlib.util.find_spec("torch")

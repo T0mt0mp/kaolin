@@ -116,7 +116,7 @@ def get_requirements():
     requirements.append('scipy>=1.2.0,<=1.5.2')
     requirements.append('Pillow>=8.0.0')
     requirements.append('tqdm>=4.51.0')
-    requirements.append('usd-core==20.11')
+    #requirements.append('usd-core==20.11')
 
     return requirements
 
